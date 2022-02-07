@@ -6,14 +6,71 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Roboto:wght@100;300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/global.css">
+  <link rel="stylesheet" href="src/styles/variables.css">
+  <link rel="stylesheet" href="src/styles/header.css">
+ 
   <title>Template 2</title>
 </head>
 
 <body>
+  <header class="header">
+    <div class="header-top-wrapper">
+      <div class="header-top-content">
+        <div class="header-contacts">
+          <div class="header-contacts__phonenumber">
+            <i class="fas fa-phone fa-sm header-contacts__phohe-icon"></i>
+            <span class="header-contacts__phone">(19) 3826-2294</span>
+          </div>
+          <div class="header-contacts__email">
+            <i class="fas fa-envelope-open-text fa-lg header-contacts__email-icon"></i>
+            <span class="header-contacts__address">comercial@projetoweb.com.br</span>
+          </div>
+        </div>
+        <div class="header-messages">
+          <div class="header-messages__whatsapp">
+            <i class="fab fa-whatsapp fa-lg header-messages__whatsapp-icon"></i>
+            <span class="header-messages__whatsapp-text">Atendimento pelo Whatsapp</span>
+          </div>
+          <div class="header-messages__online-service">
+            <i class="fas fa-comments fa-lg header-messages__message-icon"></i>
+            <span class="header-messages__message-text">Atendimento Online</span>
+          </div>
+      </div>
+      </div>
+    </div>
 
+    <div class="header-nav-wrapper">
+      <div class="header-nav-content">
+        <div class="header-nav-logo">
+          <h1 class="header-nav-logo__first-name">Projeto</h1>
+          <h1 class="header-nav-logo__second-name">Web</h1>
+        </div>
+        <nav class="header-menu">
+          <a class="header-menu__link"href="#">Home</a>
+          <a class="header-menu__link"href="#">Empresa</a>
+          <a class="header-menu__link"href="#">Serviços</a>
+          <a class="header-menu__link"href="#">Portifólio</a>
+          <a class="header-menu__link"href="#">Contato</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="header-carousel-wrapper">
+      <div class="header-carousel">
+        <img class="header-carousel__image" src="src/assets/images/header-img.jpg" alt="Imagem do Header" />
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-arrow-right"></i>
+      </div>
+    </div>
+  </header>
+
+  
 </body>
 
 </html>
