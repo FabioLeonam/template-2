@@ -1,0 +1,103 @@
+.header-top-wrapper{
+  align-items: center;
+  background-color: var(--blue);
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  padding: 0 200px 0 200px;
+}
+.header-top-content{
+  display: flex;
+  justify-content: space-between;
+  width: 1536px;
+}
+.header-contacts{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.header-contacts__phonenumber{
+  display: flex;
+  gap: 5px;
+}
+
+.header-contacts__phohe-icon{
+  padding: 2px;
+  height: 20px;
+  background-color: var(--white);
+}
+
+.header-contacts__phone{
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.header-contacts__email{
+  display: flex;
+  gap: 5px;
+}
+
+.header-contacts__email-icon{
+  color: var(--white);
+}
+
+.header-contacts__address{
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.header-messages{
+  display: flex;
+  gap: 5px;
+}
+
+.header-messages__whatsapp{
+  align-items: center;
+  background-color: var(--green-whatsapp);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  padding: 10px 10px;
+}
+
+.header-messages__whatsapp-icon{
+  color: var(--white);
+}
+
+.header-messages__whatsapp-text{
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.header-messages__online-service{
+  align-items: center;
+  background-color: var(--acqua);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  padding: 10px 10px;
+}
+
+.header-messages__message-icon{
+  color: white;
+  height: 20px;
+}
+
+.header-messages__message-text{
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
