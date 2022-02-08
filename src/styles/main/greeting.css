@@ -1,0 +1,78 @@
+.greeting-wrapper{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 200px 0 200px;
+}
+
+.greeting{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 215px;
+  margin: 50px 0 50px 0;
+  width: 1536px;
+}
+
+.greeting__welcome{
+  width: 500px;
+}
+
+.greeting__title{
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: var(--blue);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.greeting__title--red{
+  color: var(--red);
+}
+
+.greeting__title--red::after{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 500px;
+  margin: 15px 0 15px 0;
+  background: currentColor;
+  border: none;
+  border-radius: 10px;
+}
+
+.greeting__text{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,0.5);
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.greeting__button{
+  background-color: var(--red);
+  width: 120px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.7 ease-in;
+}
+
+.greeting__button:hover{
+  background-color: var(--red-light);
+}
+
+.greeting-img-container{
+  width: 400px; 
+  height: 300px;
+}
+
+.greeting-img-container__image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
