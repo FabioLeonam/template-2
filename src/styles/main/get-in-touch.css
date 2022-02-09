@@ -1,0 +1,83 @@
+.get-in-touch-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 0 200px 0 200px;
+}
+
+.get-in-touch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+  width: 1526px;
+}
+
+.get-in-touch__title{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: var(--blue);
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.get-in-touch__title--red{
+  color: var(--red);
+  margin-bottom: 30px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 800px;
+  margin-bottom: 20px;
+  height: 210px;
+}
+
+.form-inputs{
+  display: flex;
+  gap: 0 5px;
+  flex-direction: row;
+}
+.form-inputs-left{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form__item{
+  background-color: var(--grey-light);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  width: 400px;
+  height: 50px;
+  outline: none;
+}
+
+.form__item::placeholder{
+  color: rgba(0,0,0,0.4);
+}
+
+.form__item--text{
+  width: 395px;
+  height: 160px;
+}
+
+.form__button{
+  border: none;
+  border-radius: 5px;;
+  padding: 15px;
+  background-color: var(--red);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.7 ease-in;
+}
+
+.form__button:hover{
+  background-color: var(--red-light);
+}
