@@ -30,7 +30,8 @@
 .form{
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  flex-wrap: wrap;
+  gap: 0 4px;
   width: 800px;
   margin-bottom: 20px;
   height: 210px;
@@ -38,8 +39,8 @@
 
 .form-inputs{
   display: flex;
+  flex-wrap: wrap;
   gap: 0 5px;
-  flex-direction: row;
 }
 .form-inputs-left{
   display: flex;
