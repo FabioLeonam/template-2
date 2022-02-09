@@ -1,0 +1,154 @@
+.footer-top-wrapper{
+  align-items: center;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  padding: 0 200px 0 200px;
+}
+
+.footer-top{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 0;
+  justify-content: space-around;
+  padding: 25px 0 25px 0;
+  width: 1526px;
+}
+
+.footer-top__logo{
+  color: var(--white);
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+}
+
+.footer-top-contacts{
+  align-items: center;
+  display: flex;
+  gap: 0 10px;
+}
+
+.footer-top-contact{
+  color: var(--white);
+  border-right: 2px solid;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.footer-top-description{
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.footer-top-item{
+  align-items: center;
+  display: flex;
+  gap: 0 15px;
+}
+.footer-top-item__icon{
+  color: var(--white);
+}
+
+.footer-top-item__info{
+  color: var(--white);
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  width: 205px;
+  word-wrap: break-word;
+}
+
+.footer-top-item__info--location{
+  width: 190px;
+}
+
+.footer-messages{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-message-whatsapp{
+  align-items: center;
+  background-color: var(--green-whatsapp);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  gap: 9px;
+  padding: 10px;
+  transition: all 0.7 ease-in;
+}
+
+.footer-message-whatsapp:hover{
+  background-color: var(--green-whatsapp-light);
+}
+
+.footer-message-whatsapp__icon{
+  color: var(--white);
+}
+
+.footer-message__whatsapp-text{
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.footer-message-chat-service{
+  align-items: center;
+  background-color: var(--acqua);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  padding: 10px 10px;
+  transition: all 0.7 ease-in;
+}
+.footer-message-chat-service:hover{
+  background-color: var(--acqua-light);
+}
+.footer-message-chat__icon{
+  color: var(--white);
+}
+
+.footer-message__message-text{
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.footer-down-wrapper{
+  align-items: center;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  padding: 0 200px 0 200px;
+}
+
+.footer-down{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+  padding: 15px 0 15px 0;
+}
+
+.footer-down__author{
+  color: var(--white);
+  font-family: "Orbitron", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer-down__name-company{
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
