@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="src/styles/global.css">
   <link rel="stylesheet" href="src/styles/variables.css">
   <link rel="stylesheet" href="src/styles/header.css">
+  <link rel="stylesheet" href="src/styles/main.css">
  
   <title>Template 2</title>
 </head>
@@ -70,7 +71,81 @@
     </div>
   </header>
 
-  
+  <main>
+    <section class="greeting-wrapper">
+      <div class="greeting">
+        <div class="greeting__welcome">
+          <h1 class="greeting__title">Bem-Vindo ao</h1>
+          <h1 class="greeting__title greeting__title--red">Nosso Site</h1>
+          <p class="greeting__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla voluptatibus
+            recusandae nemo, eius quos. Nesciunt inventore sint sed ut! Nisi quidem saepe ipsum mollitia, aspernatur autem unde
+            cupiditate dignissimos. Nesciunt inventore sint sed ut! Nisi quidem saepe ipsum mollitia, aspernatur autem unde
+            cupiditate dignissimos</p>
+          <button class="greeting__button" type="button">Saiba mais</button>
+        </div>
+        <div class="greeting-img-container">
+          <img class="greeting-img-container__image" src="src/assets/images/greeting-img.jpg" alt="Greeting">
+        </div>
+      </div>
+    </section>
+
+    <section class="services-wrapper">
+      <div class="services">
+        <div class="service-card">
+          <img class="service-card__img" src="src/assets/images/laptop1-img.jpg" alt="Service 1">
+          <h3 class="service-card__title">Criação de Sites</h3>
+          <p class="service-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, debitis! Voluptatum nesciunt obcaecati consectetur
+            magnam hic deleniti ipsa.</p>
+          <button class="service-card__button">Saiba Mais</button>
+        </div>
+        <div class="service-card">
+          <img class="service-card__img" src="src/assets/images/server.img.jpg" alt="Service 1">
+          <h3 class="service-card__title">Hospedagem de Sites</h3>
+          <p class="service-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, debitis! Voluptatum nesciunt obcaecati consectetur
+            magnam hic deleniti ipsa.</p>
+          <button class="service-card__button">Saiba Mais</button>
+        </div>
+        <div class="service-card">
+          <img class="service-card__img" src="src/assets/images/laptop2-img.png" alt="Service 1">
+          <h3 class="service-card__title">Manutenção de Sites</h3>
+          <p class="service-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, debitis! Voluptatum nesciunt obcaecati consectetur
+            magnam hic deleniti ipsa.</p>
+          <button class="service-card__button">Saiba Mais</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-in-touch-wrapper">
+      <div class="get-in-touch">
+        <h1 class="get-in-touch__title">Entre em</h1>
+        <h1 class="get-in-touch__title get-in-touch__title--red">contato</h1>
+        
+        <form class="form" action="#">
+          <div class="form-inputs">
+            <div class="form-inputs-left">
+              <input class="form__item form__item--name" type="text" placeholder="Nome:">
+              <input class="form__item form__item--email" type="text" placeholder="E-mail:">
+              <input class="form__item form__item--phone" type="text" placeholder="Telefone:">
+            </div>
+            <div class="form-inputs-right">
+              <textarea class="form__item form__item--text" placeholder="Mensagem:"></textarea>
+            </div>
+          </div>
+          <button class="form__button">Enviar</button>
+        </form>
+
+      </div>
+    </section>
+
+    <section class="map-wrapper">
+      <div class="map-content">
+        <div class="gmap_canvas">
+          <iframe width="1526" height="400" class="gmap_canvas"
+            src="https://maps.google.com/maps?q=Venturus&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
